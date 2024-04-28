@@ -59,7 +59,7 @@ a {
     gap: 50px;
 }
 
-.l-subheader, .img-subheader {
+.l-subheader {
     flex: 1;
 }
 
@@ -70,9 +70,9 @@ a {
 }
 
 .st-subheader {
-    font-size: 18px;
+    font-size: 22px;
     color: #E5E7EB;
-    margin: 0px;
+    margin: 20px 0px;
 }
 
 .b-subheader {
@@ -80,12 +80,16 @@ a {
     border-color: #3882F6;
     border-radius: 10px;
     color: #f9faf8;
-    margin-top: 10px;
     padding: 5px 30px;
 }
 
 .img-subheader {
+    flex: auto;
+    max-width: 390px;
+    min-width: 200px;
     background-color: gray;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
 }
 
 .content {
@@ -112,11 +116,12 @@ a {
 .box {
     flex: 1;
     flex-direction: column;
-    max-width: 150px;
+    max-width: 180px;
 }
 
 .img-boxes {
-    border: 2px solid #3882F6;
+    height: 140px;
+    border: 3px solid #3882F6;
     border-radius: 10px;
 }
 
